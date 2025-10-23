@@ -1,0 +1,36 @@
+.todoItems{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todoItemsContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.todoItemsContainer img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.todoItemText{
+    font-size: 18px;
+}
+
+.todoItemTextDone{
+    font-size: 18px;
+    text-decoration: line-through;
+}
+
+.cross {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px;
+}
